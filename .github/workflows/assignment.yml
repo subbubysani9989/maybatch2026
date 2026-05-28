@@ -6,8 +6,9 @@ jobs:
         runs-on: ubuntu-latest
         steps:
             - uses: actions/checkout@v4
-            - name: createa a directory
-
-              run: mkdir assignment
-            - name: create a file
-              run: |cd subbu && touch assignment.txt
+            - run: mkdir assignment
+            - name: Create a file and add content
+              run: |
+                echo "This is my assignment file." > assignment/assignment.txt
+                echo "I am learning GitHub Actions." >> assignment/assignment.txt   
+                
