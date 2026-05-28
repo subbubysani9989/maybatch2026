@@ -1,0 +1,13 @@
+name : subbu-Assignment
+on : 
+    workflow_dispatch:
+jobs:
+    build:
+        runs-on: ubuntu-latest
+        steps:
+            - uses: actions/checkout@v4
+            - name: createa a directory
+
+              run: mkdir assignment
+            - name: create a file
+              run: |cd subbu && touch assignment.txt
