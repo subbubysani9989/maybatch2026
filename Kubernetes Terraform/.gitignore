@@ -1,2 +1,8 @@
 .terraform/
 *terraform-provider-aws*
+.terraform/
+*.tfstate
+*.tfstate.*
+.terraform.lock.hcl
+*.pem
+.DS_Stor
