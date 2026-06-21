@@ -6,3 +6,15 @@
 .terraform.lock.hcl
 *.pem
 .DS_Stor
+.terraform/
+*terraform-provider-aws*
+.terraform/
+*.tfstate
+*.tfstate.*
+.terraform.lock.hcl
+*.pem
+.DS_Stor
+.\terraform
+terraform.tfstate
+terraform.tfstate.backup
+.terraform.lock.hcl
